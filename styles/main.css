@@ -64,6 +64,14 @@ a {
     margin: 20px 0 30px;
 }
 
+.header__info-left a::before {
+    content: url("../images/headPhone.svg");
+    height: 30px;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+}
+
 .header__info-left span {
     margin-left: 60px;
     color: #34383D;
