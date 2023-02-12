@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:ital,wght@0,500;1,500&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    min-width: 320px;
+}
+
+body {
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #34383D;
+}
+
+.content-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-style {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.btn-style {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 1920px;
+    min-height: 100%;
+}
+
+.header {
+    width: 1920px;
+    height: 1080px;
+    padding-top: 20px;
+    background-image: url(../images/headerPhoto.jpg);
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 1700px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__info {
+    width: 100%;
+    margin: 20px 0 30px;
+}
+
+.header__info-left span {
+    margin-left: 60px;
+    color: #34383D;
+    font-style: italic;
+}
+
+.header__info-right a,
+.header__description .btn-gold {
+    border: 2px solid #CDA861;
+    border-radius: 30px;
+    padding: 16px 23px;
+}
+
+.btn-grey {
+    margin-right: 20px;
+    color: #fff;
+}
+
+.btn-gold {
+    background-color: #CDA861;
+}
+
+.header__menu {
+    margin-bottom: 191px;
+}
+
+.header__menu-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    margin-left: 45px;
+}
+
+.nav__list {
+    list-style-type: none;
+    display: flex;
+    column-gap: 50px;
+}
+
+.nav__list-item a {
+    opacity: 0.6;
+    transition: all 300ms;
+}
+
+.nav__list-item a:hover {
+    border-bottom: 3px solid #34383D;
+    opacity: 1;
+}
+
+.cart-icon {
+    margin-left: 40px;
+}
+
+.header__description {
+    width: 660px;
+}
+
+.header__description h1 {
+    font-weight: 600;
+    font-size: 76px;
+    line-height: 93px;
+    color: #34383D;
+    margin-bottom: 30px;
+}
+
+.header__description span {
+    text-decoration: underline;
+    color: #CDA861;
+}
+
+.header__description p {
+    margin-bottom: 60px;
+    color: #34383D;
+    opacity: 0.8;
+}
