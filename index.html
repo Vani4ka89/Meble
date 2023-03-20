@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=1700">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Meble</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/media.css">
 </head>
 <body>
 <div class="wrapper">
@@ -56,8 +57,43 @@
             </div>
         </div>
     </header>
-    <main class="main"></main>
+    <main class="main">
+        <section class="main__section-1">
+            <div class="block">
+                <div class="main__section-1-picture">
+                    <img src="images/home.png" alt="home">
+                </div>
+                <div class="main__section-1-description">
+                    <h3>ABOUT US</h3>
+                    <h2>FURNITURE OF ART.</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing
+                        anLorem Ipsum is simply dummy text of the printing
+                        and typesetting industry.d typesetting industry.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer class="footer"></footer>
 </div>
+
+
+<script>
+    let sectors = {
+        class: [],
+        id: []
+    }
+    function explorer(data) {
+        for (const item of data) {
+            let classes = document.getElementsByClassName('class');
+            if (classes === 'class') {
+                sectors.class.push(item)
+            }
+        }
+    }
+
+    explorer(document.body);
+</script>
+
 </body>
 </html>

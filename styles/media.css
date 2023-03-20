@@ -1,0 +1,64 @@
+/*XS*/
+@media screen and (min-width: 0 ) and ( max-width: 576px ) {
+
+}
+/*Small*/
+@media screen and (min-width: 576px ) and ( max-width: 767px ) {
+
+}
+/*Medium*/
+@media screen and (min-width: 768px ) and ( max-width: 991px ) {
+
+}
+/*Large*/
+@media screen and (min-width: 992px ) and ( max-width: 1200px ) {
+    .header {
+        background-size: contain;
+    }
+.container {
+    width: 1199px;
+}
+}
+/*X-Large*/
+/*@media screen and (min-width: 1200px ) and ( max-width: 1399px ) {*/
+/*.header {*/
+/*    background-size: contain;*/
+/*}*/
+/*    .header__menu {*/
+/*        align-items: flex-start;*/
+/*        margin-bottom: 50px;*/
+/*    }*/
+/*    .header__info-left {*/
+/*        margin-left: 30px;*/
+/*    }*/
+/*    .header__info-right {*/
+/*        margin-right: 10px;*/
+/*    }*/
+/*    .header__menu-left {*/
+/*        margin-left: 30px;*/
+/*    }*/
+/*    .nav__list {*/
+/*        width: 570px;*/
+/*        flex-wrap: wrap;*/
+/*        column-gap: 85px;*/
+/*    }*/
+/*    .header__menu-right {*/
+/*        padding-right: 10px;*/
+/*    }*/
+/*    .header__description {*/
+/*        margin-left: 30px;*/
+/*    }*/
+/*    .header__description h1 {*/
+/*        margin-bottom: 40px;*/
+/*    }*/
+/*    .header__description p {*/
+/*        width: 570px;*/
+/*    }*/
+/*    .container {*/
+/*        width: 1400px;*/
+/*    }*/
+/*}*/
+/*XX-Large*/
+@media screen and (min-width: 1400px ) {
+
+}
